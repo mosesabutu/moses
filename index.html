@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moses Abutu</title>
+    <link rel="stylesheet" media= " screen and (max-width: 423px)" href="style.css">
+    <link rel="stylesheet" media="screen and (min-width: 424px) and (max-width: 640px)" href="stylem.css">
+    <link rel="stylesheet" media="screen and (min-width:1024px) " href="styled.css">
+    <link rel="stylesheet" media="screen and (min-width: 641px) and (max-width: 1024px)" href="stylet.css">
+</head>
+<body>
+
+ 
+
+    <div class="header" >
+        <div class="favicon"><a href="">Moses Abutu</a></div>
+        <div class="nightandlight">
+        <img src="light_mode_white_18dp.svg" id="toggledark" class="i">
+           <a onclick="showSidebar()" > <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="white" id="imenu" class="bi bi-list" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+          </svg></a>
+        </div>
+        
+    </div>
+    <div>
+    </div>
+  <script> 
+function showSidebar(){
+    const sidebar = document.querySelector('.sidebar')
+    sidebar.style.display = 'flex';
+}
+
+ function hideSidebar(){
+    const sidebar = document.querySelector('.sidebar')
+    sidebar.style.display = 'none';
+ }
+ </script>
+
+
+
+
+    <nav class="sidebar" id="sidebar">
+        <ul class="shadow" id="shadow">
+            <li class="close"><a onclick="hideSidebar()" id="li"><img src="close_white_24dp.svg"></a></li>
+            <li id="li"><a href="#home" >Home</a></li>
+            <li id="li"><a href="#about">About</a></li>
+            <li id="li"><a href="#contact">Contact</a></li>
+        </ul>
+     </nav>
+
+
+
+    <div class="contains" id="home">
+        <div class="section1">
+            <h1>Hello,<br>  I'm Moses.</h1>
+            <h2>Intern Web Developer & Designer</h2>
+
+            <p>Hi there! I'm a passionate web developer intern eager to translate ideas into interactive web experiences. I'm currently enrolled in a program and bring a strong foundation in web development fundamentals (HTML, CSS, JavaScript).</p>
+        </div>
+        <div class="section2">
+            <picture>
+                <source media="(min-width: 481px)" srcset="replicate-prediction-cpqk23bcy3zehxg7lrgpkgupsu-removebg-preview.png" alt="Yeah ,Thats Moses Abutu" >
+            <img src="replicate-prediction-cpqk23bcy3zehxg7lrgpkgupsu-removebg-preview@2x.png" alt="Me">
+            </picture>
+        </div>
+        
+    </div>
+
+
+<section  id="about" >
+    <div id="contt" >
+    <div class="headt"><h1>A Little About Me</h1></div>
+    <div class="btext">
+        <p> 
+            👋 Hi there! I’m Moses Abutu, an 18-year-old web developer based in Nigeria. With a love for both code and football, I’ve found my sweet spot where creativity meets technology.
+            <br>
+            <br>
+            
+            
+            Ever since I transitioned from graphic design, I’ve been immersed in the world of web development. From HTML and CSS to JavaScript and beyond, I thrive on turning ideas into functional, beautiful websites. Whether it’s a sleek landing page or a dynamic web app, I’m up for the challenge 
+            <br>
+            <br>
+            
+            
+            As a  fan of both Lionel Messi and Cristiano Ronaldo, I’ve witnessed their magic on the field. Just like them, I believe in pushing boundaries, honing my skills, and delivering excellence. Whether it’s a perfectly executed free-kick or a flawlessly optimized website, precision matters. <br>
+            <br>
+            <br>
+            
+            
+            Growing up in Nigeria has shaped my perspective and fueled my creativity. The vibrant culture, diverse landscapes, and warm-hearted people inspire me daily. I’m proud to bring a touch of Nigerian flair to my web projects 
+            
+            
+            
+          </p>
+    </div>
+</div>
+</section >
+<section class="contact">
+    <div class="cont" id="contact">
+    <div class="headtt">Get In touch</div>
+     <div class="textb">
+        Whether you’re looking to collaborate on a project, or simply share a virtual high-five, feel free to reach out.
+            
+        Thanks for stopping by—I can’t wait to build something amazing together! 🚀
+     </div>
+     <br>
+     <br>
+     <br>
+     <br>
+     <div class="social" >
+      <a href="https://www.facebook.com/mosesaabutu" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+        <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+      </svg></a>
+        <a href="https://www.linkedin.com/in/moses-abutu-audu" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+          </svg></a>
+        <a href="mailto:abutu5225@gmail.com" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
+            <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z"/>
+          </svg></a>
+     </div>
+    </div>
+
+
+</section>
+</body>
+</html>
