@@ -138,7 +138,7 @@ nav li a{
 
 .contains .section1 {
     margin: 1em;
-    margin-top: 14em;
+    margin-top: 6em;
 }
 .contains .section1 h1{
     color: var(--pricol);
@@ -261,7 +261,7 @@ nav li a{
     flex-direction: column;
     justify-content: center;
     width: 90%;
-    height: 80dvh;
+    height: 90%;
     margin-left: 1em;
 }
 
@@ -269,6 +269,7 @@ nav li a{
     color: var(--grad); 
     font-size: 3rem;  
     text-align: left;
+    margin-top: -1em;
     
 }
 
